@@ -1,0 +1,15 @@
+{  
+  "contractHash": "0xbce38c125c51cf4a35d00b7be7f9e52cb3064182",
+  "contractWebHash": "0xb7187e1617dfaeed5c14699293e437f30703d34a",
+  "IPCpath": "https://rinkeby.infura.io/v3/c3ef5e68fcd34cf989e5d0e119c6eedd",
+  "pswd": "ira",
+  "keyDir": "/home/alex/wrk/Eth_AeroNet_t/keystore/",
+  "accountAddr": "0xde9319abc7958e1939b472a811bab05f2d79f5fc",
+  "appHttpPort": 8081,
+  "restHttpPort": 8091,
+  "ethereumRpcPort": 8084,
+  "appUrlServer": "http://localhost",
+  "restUrlServer": "http://localhost",
+  "ethereumRpcUrl": "http://localhost",
+  "fileWebPath": "/home/alex/wrk/Dropbox/WORK/RD/LuxBCh/PKI_gitarch/public"
+}

@@ -1,0 +1,15 @@
+import:
+- package: github.com/ethereum/go-ethereum/cmd/abigen
+  version: =1.7.3
+- package: github.com/ethereum/go-ethereum/accounts/abi
+  version: =1.7.3
+- package: github.com/ethereum/go-ethereum/accounts/abi/bind
+  version: =1.7.3
+- package: github.com/ethereum/go-ethereum/common
+  version: =1.7.3
+- package: github.com/ethereum/go-ethereum/core/types
+  version: =1.7.3
+- package: github.com/ethereum/go-ethereum/crypto/sha3
+  version: =1.7.3
+- package: github.com/ethereum/go-ethereum/ethclient
+  version: =1.7.3
