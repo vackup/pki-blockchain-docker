@@ -1,15 +1,15 @@
 {  
-  "contractHash": "0xa3f5e1b3d37ceb2f5e52b1d5d69584a9af00590f",
+  "contractHash": "0xc85cab24a42dbc62198f495af52074a80666d9c8",
   "contractWebHash": "0x1001310b919057ebd28edaf449e1815f843f0791",
   "IPCpath": "https://rinkeby.infura.io/v3/c3ef5e68fcd34cf989e5d0e119c6eedd",
   "pswd": "JugoLoco10!",
   "keyDir": "/go/src/app/keystore/",
   "accountAddr": "0x2F1435e5a7180c395B977620030CfF9cb2C146a9",
-  "appHttpPort": 8081,
+  "appHttpPort": 3030,
   "restHttpPort": 8091,
   "ethereumRpcPort": 8084,
-  "appUrlServer": "http://localhost",
-  "restUrlServer": "http://localhost",
-  "ethereumRpcUrl": "http://localhost",
-  "fileWebPath": "/home/alex/wrk/Dropbox/WORK/RD/LuxBCh/PKI_gitarch/public"
+  "appUrlServer": "http://hernanzaldivar",
+  "restUrlServer": "http://hernanzaldivar",
+  "ethereumRpcUrl": "http://hernanzaldivar",
+  "fileWebPath": "/go/src/app/pub"
 }
