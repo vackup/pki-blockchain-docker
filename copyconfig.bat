@@ -1,0 +1,1 @@
+docker cp .\config\pki-conf.json pki-rest:/go/src/app/config/pki-conf.json

@@ -1,0 +1,1 @@
+docker run -p 3031:8091 -it --rm --name pki-rest pki-blockchain-rest-image

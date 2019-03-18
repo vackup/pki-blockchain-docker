@@ -1,6 +1,6 @@
 {  
-  "contractHash": "0x97e8eae8caf7a2e2283b0c128aa41ca2463fde62",
-  "contractWebHash": "0x1001310b919057ebd28edaf449e1815f843f0791",
+  "contractHash": "0x5e8da4b4659e21b0117b8b5170162fbb07cd6ca0",
+  "contractWebHash": "0x667f6bf1af26599aad498a7e8d35fe7e8b3b1be8",
   "IPCpath": "https://rinkeby.infura.io/v3/c3ef5e68fcd34cf989e5d0e119c6eedd",
   "pswd": "JugoLoco10!",
   "keyDir": "/go/src/app/keystore/",
