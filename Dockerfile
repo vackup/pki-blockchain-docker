@@ -26,28 +26,3 @@ RUN glide install
 RUN GOOS=linux GOARCH=amd64 go build pki-rest.go bind_pki.go pki_conf.go
 
 ENTRYPOINT ["./entrypoint.sh"]
-
-############################
-# STEP 2 build a small image pki-rest
-############################
-#FROM scratch
-
-# Copy our static executable.
-#COPY --from=builder /go/src/app/pki-rest /go/bin/
-#COPY --from=builder /go/src/app/config/pki-conf.json /go/bin/config/
-#COPY --from=builder /go/src/app/pki-rest /go/bin/pki-rest
-
-# Run the app binary.
-#ENTRYPOINT ["./pki-rest"]
-#ENTRYPOINT ["/go/bin/pki-web"]
-
-############################
-# STEP 3 build a small image pki-web
-############################
-#FROM scratch
-
-# Copy our static executable.
-#COPY --from=builder /go/src/app/pki-web /go/bin/pki-web
-
-# Run the app binary.
-#ENTRYPOINT ["/go/bin/pki-web"]
