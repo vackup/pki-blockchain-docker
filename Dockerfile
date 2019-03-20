@@ -11,11 +11,11 @@ FROM golang:1.12-alpine AS builder
 RUN apk update 
 RUN apk add --no-cache git gcc musl-dev curl
 
-#RUN add-apt-repository -y ppa:ethereum/ethereum
-
 #Copy app
 WORKDIR $GOPATH/src/app
 COPY . .
+
+RUN chmod +x entrypoint.sh
 
 # install glide
 RUN curl https://glide.sh/get | sh
@@ -23,10 +23,9 @@ RUN curl https://glide.sh/get | sh
 RUN glide install
 
 # Build the binary.
-#RUN GOOS=linux GOARCH=amd64 go build -ldflags="-w -s" -o /go/bin/pki-rest
 RUN GOOS=linux GOARCH=amd64 go build pki-rest.go bind_pki.go pki_conf.go
 
-#CMD ["go", "run", "pki-web.go"]
+ENTRYPOINT ["./entrypoint.sh"]
 
 ############################
 # STEP 2 build a small image pki-rest
